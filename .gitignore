@@ -1,0 +1,49 @@
+# Python virtual environment
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# Test data (optional - depends on if you want to share test files)
+test.csv
+complex_test_data.csv
+*.csv  # or be more specific
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+
+# Plot outputs (if you generate saved plots)
+*.png
+*.pdf
+*.jpg
